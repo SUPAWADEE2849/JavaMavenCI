@@ -107,8 +107,8 @@ public class CalculateTest {
 
 	}
 	@Test
-	public void gradeBPlusFromSetScoreAndCalculateByScore75() {
-		this.score = 75;
+	public void gradeFFromSetScoreAndCalculateByScore49() {
+		this.score = 49;
 		String expected = "F";
 		cal.setScore(this.score);
 		String actual = cal.CalculateGrade();
