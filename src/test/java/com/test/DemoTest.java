@@ -15,7 +15,7 @@ public class DemoTest {
 	@Before
 	public void before() {
 		System.out.println("Before");
-	}b
+	}
 	@Test
 	public void test() {
 		Assert.assertTrue(true);
