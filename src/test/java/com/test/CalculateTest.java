@@ -62,9 +62,18 @@ public class CalculateTest {
 
 	}
 	@Test
-	public void gradeBPlusFromSetScoreAndCalculateByScore70() {
-		this.score = 70;
+	public void gradeBPlusFromSetScoreAndCalculateByScore75() {
+		this.score = 75;
 		String expected = "B+";
+		cal.setScore(this.score);
+		String actual = cal.CalculateGrade();
+		Assert.assertEquals(expected, actual);
+
+	}
+	@Test
+	public void gradeBFromSetScoreAndCalculateByScore70() {
+		this.score = 70;
+		String expected = "B";
 		cal.setScore(this.score);
 		String actual = cal.CalculateGrade();
 		Assert.assertEquals(expected, actual);

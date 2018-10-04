@@ -18,12 +18,15 @@ public class Calculate {
 	public String CalculateGrade() {
 		if(this.score>=80) {
 			this.grade = "A";	
-		}else if(this.score>=70) {
+		}else if(this.score>=75) {
 			this.grade = "B+";
-		}else if(this.score>=65){
+		}else if(this.score>=70){
 			this.grade = "B";
+		}else if(this.score>=65) {
+			this.grade ="C+";
 		}else if(this.score>=60) {
 			this.grade ="C";
+		
 		}else if(this.score>=55) {
 			this.grade = "D+";
 		}else if(this.score>=50) {
