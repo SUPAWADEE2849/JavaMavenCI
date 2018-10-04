@@ -17,7 +17,7 @@ public class ExampleTest {
 		
 		
 		//actual
-		String actual = "B";
+		String actual = "A";
 		
 		//test
 		Assert.assertEquals(expected , actual);
